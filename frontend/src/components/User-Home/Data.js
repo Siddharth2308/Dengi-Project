@@ -1,0 +1,20 @@
+export const UHomeObjOne = {
+    id: "about",
+    lightBg: true,
+    lightText: false,
+    lightTextdesc: false,
+    topLine: "",
+    headline: "Welcome Back !",
+    description: "Dont forget to check out Upcoming Meals",
+    imgStart: false,
+    img: "images/user-welcome.svg",
+    alt: "Chef-landing",
+    dark: true,
+    primary: true,
+    darkText: true,
+    buttonLabel: "Place Order",
+    buttonLabel2: "Delete Order",
+    linkto1 : "/placeOrder",
+    linkto2 : "/deleteOrder",
+    table : true
+};

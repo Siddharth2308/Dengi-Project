@@ -1,0 +1,16 @@
+/* --primary-dark: #222222;
+--secondary-dark: #393939;
+--primary-light: #eeeeee;
+--secondary-light: #ffd369; 
+
+--title: "Oxygen", sans-serif;
+--content: "Roboto", sans-serif;
+
+*/
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: "Roboto", sans-serif;
+}

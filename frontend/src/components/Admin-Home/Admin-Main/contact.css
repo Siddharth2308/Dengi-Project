@@ -1,0 +1,11 @@
+.form-havala .input{
+  width: 100%;
+	border: none;
+	outline: none;
+	border-bottom: 2px solid #aaaaaa;
+	font-size: 0.9rem;
+	padding: 10px;
+	color: #393939;
+	letter-spacing: 1px;
+	transition: 0.4s ease;  
+}
