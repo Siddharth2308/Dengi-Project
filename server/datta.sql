@@ -1,5 +1,7 @@
 CREATE DATABASE boutique_management;
 
+use DATABASE boutique_management;
+
 CREATE TABLE products (
     id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
     product_name varchar(255),
