@@ -13,7 +13,7 @@ Router.get("/products/:id", async(req, res) =>{
     const {id} = req.params;
     const services = mysqlConnection.query("SELECT * FROM products WHERE id = ?",[id], (err, rows, fields) => {
         if(!err) res.send(rows);
-        else console.log(err);
+        else console.log(err, "Hello World");
     });
 });
 
